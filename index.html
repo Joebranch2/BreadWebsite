@@ -3,11 +3,48 @@
 <head>
 <title> JOE'S STORE </title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+<script src="welcome.js"></script>
+<script src="opencity.js">
+
+</script>
 </head>
 <body>
-<a href="store.html" id="redirect"><h1 id="helloMessage"></h1></a>
-<script src="script.js"></script>
-<script src="script01.js"></script>
-<!--<img src=Moldy_old_bread.JPG >-->
+
+
+<!-- Welcom to Joe's store -->
+<a href="index.html"><h1 id="hmsg"></h1></a>
+
+
+<!-- Tab links -->
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Meats')">Meats</button>
+  <button class="tablinks" onclick="openCity(event, 'Bread')">Bread</button>
+  <button class="tablinks" onclick="openCity(event, 'Dairy')">Dairy</button>
+</div>
+
+<div id="Meats" class="tabcontent">
+  <h3>Meats</h3>
+  <p>Meats is the capital city of England.</p>
+  <img src="Moldy_old_bread.JPG" alt="mold">
+</div>
+
+<div id="Bread" class="tabcontent">
+  <h3>Bread</h3>
+  <p>Bread is the capital of France.</p>
+</div>
+
+<div id="Dairy" class="tabcontent">
+  <h3>Dairy<i class="fa fa-coffee" aria-hidden="true"></i></h3>
+  <p>Dairy is the capital of Japan.</p>
+</div>
+
+
+<p>Buy food that rots.</p>
+
+
 </body>
 </html>
